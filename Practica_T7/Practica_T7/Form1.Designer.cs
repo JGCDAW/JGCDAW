@@ -30,7 +30,7 @@
         {
             this.tNombre = new System.Windows.Forms.TextBox();
             this.tApellidos = new System.Windows.Forms.TextBox();
-            this.tTelefono = new System.Windows.Forms.TextBox();
+            this.tMovil = new System.Windows.Forms.TextBox();
             this.tListaSocios = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -53,12 +53,12 @@
             this.tApellidos.Size = new System.Drawing.Size(149, 22);
             this.tApellidos.TabIndex = 1;
             // 
-            // tTelefono
+            // tMovil
             // 
-            this.tTelefono.Location = new System.Drawing.Point(597, 22);
-            this.tTelefono.Name = "tTelefono";
-            this.tTelefono.Size = new System.Drawing.Size(144, 22);
-            this.tTelefono.TabIndex = 2;
+            this.tMovil.Location = new System.Drawing.Point(597, 22);
+            this.tMovil.Name = "tMovil";
+            this.tMovil.Size = new System.Drawing.Size(144, 22);
+            this.tMovil.TabIndex = 2;
             // 
             // tListaSocios
             // 
@@ -101,9 +101,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(523, 25);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 17);
+            this.label3.Size = new System.Drawing.Size(44, 17);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Telefono:";
+            this.label3.Text = "Móvil:";
             // 
             // label4
             // 
@@ -125,7 +125,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tListaSocios);
-            this.Controls.Add(this.tTelefono);
+            this.Controls.Add(this.tMovil);
             this.Controls.Add(this.tApellidos);
             this.Controls.Add(this.tNombre);
             this.Name = "Form1";
@@ -139,7 +139,7 @@
 
         private System.Windows.Forms.TextBox tNombre;
         private System.Windows.Forms.TextBox tApellidos;
-        private System.Windows.Forms.TextBox tTelefono;
+        private System.Windows.Forms.TextBox tMovil;
         private System.Windows.Forms.TextBox tListaSocios;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
