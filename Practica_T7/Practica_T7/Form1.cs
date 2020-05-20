@@ -16,5 +16,15 @@ namespace Practica_T7
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Boton con el cual vamos a añadir los nombres de los socios previamente inscritos
+            string nombre = tNombre.Text;
+            string apellido = tApellidos.Text;
+            string telefono = tTelefono.Text;
+
+            tListaSocios.Text += nombre + " " + apellido + " " + telefono + " , ";
+        }
     }
 }
