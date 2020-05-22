@@ -22,7 +22,7 @@ namespace Practica_T7
             //Boton con el cual vamos a añadir los nombres de los socios previamente inscritos
             string nombre = tNombre.Text;
             string apellido = tApellidos.Text;
-            string telefono = tTelefono.Text;
+            string telefono = tMovil.Text;
 
             tListaSocios.Text += nombre + " " + apellido + " " + telefono + " , ";
         }
